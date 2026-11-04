@@ -9,12 +9,12 @@ window.SITE = {
   location: "Istanbul, Türkiye",
   timezone: "Europe/Istanbul",
   githubUser: "demirelmrtcn",          // used for the contribution heatmap
-  badge: "open to AI/ML roles",
+  badge: "open to AI/ML & data engineering roles",
 
   hero: {
     from: "credit risk modeling",
     to: "AI & LLM engineering",
-    intro: "I build PD, LGD, CCF and NPL models at Akbank. After hours I build LLM systems: multi-agent pipelines, RAG and agentic automation. Next step: an AI / ML Engineer role.",
+    intro: "I build PD, LGD, CCF and NPL models at Akbank. After hours I build LLM systems: multi-agent pipelines, RAG and agentic automation. Next step: an AI / ML Engineer or Data Engineer role.",
     stats: [                            // value is counted up from 0
       { pre: "",    value: 3, post: "+",  label: "years building<br>models" },
       { pre: "Top ", value: 5, post: "%", label: "İş Bankası<br>ML Challenge" },
@@ -34,7 +34,7 @@ window.SITE = {
     { label: "ml",          side: "risk", title: "2023 — NextGeo",          text: "First production ML: tree-based models on geospatial data." },
     { label: "credit risk", side: "risk", title: "2024 — Akbank",           text: "PD, LGD, CCF and NPL models under EBA guidelines, monitored on Gini, PD and DR." },
     { label: "llm systems", side: "ai",   title: "2026 — LLM systems",      text: "Multi-agent pipelines, RAG and an LLM-curated newsletter used inside the bank." },
-    { label: "next →",      side: "ai",   title: "Next — AI / ML Engineer", text: "Looking for a role building LLM and generative AI systems." },
+    { label: "next →",      side: "ai",   title: "Next — AI / ML or Data Engineer", text: "Looking for a role building LLM systems and the data pipelines behind them." },
   ],
 
   // Scrolling strip under the hero. The first `riskCount` words are amber, the rest teal.
@@ -45,8 +45,8 @@ window.SITE = {
   experience: [
     { when: "Mar 2024 — now · Istanbul", title: "Data Scientist, Model Development", org: "Akbank", side: "ai",
       text: [
-        "End-to-end credit risk models under EBA guidelines: an EBA-compliant CCF model, a PD module, PD/LGD for commercial lending and NPL models, plus portfolio monitoring on Gini, PD and DR. Promoted to Level 3 in July 2025.",
-        "Built the KRKB AI Bulletin <span class=\"tag\">LLM agent</span>, a twice-weekly AI and risk newsletter for Akbank employees, curated by an LLM agent and published through GitHub Actions.",
+        "End-to-end credit risk models under EBA guidelines: an EBA-compliant CCF model, a PD module, PD/LGD for commercial lending and NPL models, plus portfolio monitoring on Gini, PD and DR. Promoted to Level 3 in July 2025 and to Level 2 in November 2026.",
+        "Built the KRKB AI Bulletin <span class=\"tag\">LLM agent</span>, a weekly AI and risk newsletter for Akbank employees, curated by an LLM agent and published through GitHub Actions.",
       ] },
     { when: "Sep 2023 — Mar 2024", title: "Jr. Data Scientist", org: "NextGeo",
       text: ["Tree-based regression and classification on geospatial data, including location-based order quantity forecasting."] },
